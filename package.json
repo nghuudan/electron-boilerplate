@@ -1,0 +1,31 @@
+{
+  "name": "electron-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate project for cross-platform desktop apps made with Electron",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . \"Electron App\" --arch=all --asar --out=dist --overwrite",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghuudan/electron-boilerplate.git"
+  },
+  "keywords": [
+    "electron",
+    "boilerplate"
+  ],
+  "author": "Dan Nguyen <nghuudan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghuudan/electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nghuudan/electron-boilerplate#readme",
+  "dependencies": {
+    "electron": "^1.6.11"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
+  }
+}
